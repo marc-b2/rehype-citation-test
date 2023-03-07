@@ -18,6 +18,9 @@ const acmCSL =
 const chicagofullnoteCSL =
   'https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-fullnote-bibliography.csl'
 
+const din1505num =
+  'https://raw.githubusercontent.com/citation-style-language/styles/master/din-1505-2-numeric.csl'
+
 const examples = [
   'Default',
   'Suppress Bibliography',
@@ -87,6 +90,7 @@ function App() {
             markdown={LinkCitationsExample}
             rehypeCitationOptions={{
               bibliography,
+              csl: din1505num,
               linkCitations: true,
             }}
           />
