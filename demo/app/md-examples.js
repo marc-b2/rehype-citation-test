@@ -62,9 +62,16 @@ export const LinkCitationsExample = `## Welcome
 Rehype plugin to nicely format citations in markdown
 documents and insert bibliography in html format.
 
-- Supports standard citations [@Nash1950{pp. iv, vi-xi, (xv)-(xvii)}];
-- in-text citations, @Nash1951 [p. 33] says blah;
-- and multiple citations [see @Nash1950 pp 12-13; @Nash1951]
+- [@test1]
+- [@test2]
+- [@test3]
+- [@test4]
+- [@test5]
+- [@test6]
+- [@test7]
+- [@test8]
+- [@test9]
+- [@test10]
 
 The _link-citations_ option can be used to add a link from citations to the references sections.
 
