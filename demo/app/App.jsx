@@ -10,7 +10,7 @@ import {
 } from './md-examples'
 
 const bibliography =
-  'https://raw.githubusercontent.com/timlrx/rehype-citation/main/test/references-data.bib'
+  'https://raw.githubusercontent.com/marc-b2/rehype-citation-test/main/test/references-data.bib'
 
 const acmCSL =
   'https://raw.githubusercontent.com/citation-style-language/styles/master/acm-sig-proceedings.csl'
